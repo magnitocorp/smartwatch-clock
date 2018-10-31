@@ -1,6 +1,6 @@
 # smartwatch-clock
 This project is proposed for smart watches or always on screen display.
-IMPORTANT: You need Processing.Org Java libraries
+IMPORTANT: You'll need Processing for Android
 
 SMARTWATCH CLOCK
 Written in Java, Processing Libraries
