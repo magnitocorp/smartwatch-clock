@@ -11,11 +11,14 @@ Written in Java, Processing Libraries
  * version : 1.0.0
  * author : Symsey Cruz
  * license :
+ 
+ -------------------------------------------------------------------------------------------
 
  * Credits to Processing.Org
  * I used their libraries written in Java.
  * For references, please visit their website.
 
+-------------------------------------------------------------------------------------------
 
  * Credits to Daniel Shiffman
  * The original owner of this idea.
