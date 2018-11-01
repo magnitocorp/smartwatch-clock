@@ -6,9 +6,9 @@
  *
  */
 
-int secArcD = 840;
-int minArcD = secArcD - 50;
-int hourArcD = minArcD - 50;
+int secArcD;
+int minArcD;
+int hourArcD;
 float beginIndex = (-1.5708); //radian of -90 degrees
 float endIndexSec, endIndexMin, endIndexHr = beginIndex;
 
@@ -22,6 +22,9 @@ void setup() {
   PFont font = createFont("SansSerif", 24 * displayDensity);
   textFont(font);
   textAlign(CENTER, CENTER);
+  secArcD = ( width < height || width == height ) ? floor(width * 0.78) : floor(height * 0.78);
+  minArcD = secArcD - 50;
+  hourArcD = minArcD - 50;
 }
 
 // processing built-in method. see processing.org
